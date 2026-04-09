@@ -1,73 +1,49 @@
-# 📊 Regression Models Implementation
+#Machine Learning From Scratch
 
-This repository contains implementations of various regression algorithms using both libraries and from-scratch approaches. It is designed to build strong fundamentals in machine learning and understand how regression models work internally.
+Hi!
+This repository contains my implementations of core Machine Learning algorithms built from scratch using Python.
 
----
+I created this project to understand how ML algorithms actually work behind the scenes instead of just using libraries like NumPy or scikit-learn.
 
-## 🚀 Models Implemented
+#What I have implemented
+Linear Regression
+Multiple Linear Regression
+Polynomial Regression
+(More coming soon…)
+# What I learned
 
-* ✔️ Simple Linear Regression
-* ✔️ Multiple Linear Regression
-* ✔️ Polynomial Regression
-* ✔️ Ridge Regression (L2 Regularization)
-* ✔️ Gradient Descent (from scratch)
+While building these models, I focused on understanding:
 
----
+How Gradient Descent works
+How cost functions are minimized
+Difference between overfitting and underfitting
+Importance of feature scaling
+How models make predictions step-by-step
+#Project Structure
 
-## 🧠 Key Concepts Covered
+Each algorithm is organized in a separate folder for clarity:
 
-* Feature-target relationship
-* Overfitting & Regularization
-* Loss functions (MSE)
-* Gradient Descent optimization
-* Model evaluation (R2 Score, MSE)
+Linear Regression
+Multiple Linear Regression
+Polynomial Regression
 
----
+I have also included datasets and some example runs.
 
-## 🛠️ Tech Stack
+# Tech Used
+Python
+NumPy
+Matplotlib
+# How to run
+Clone the repository
+Open any folder (like Linear Regression)
+Run the Python file
+# Why I made this
 
-* Python
-* NumPy
-* Pandas
-* Matplotlib
-* scikit-learn
+I’m currently learning AI/ML and preparing for placements.
+This project helped me strengthen my fundamentals and build confidence in core concepts.
 
----
-
-## 📂 Project Structure
-
-```
-├── linear_regression/
-├── multiple_regression/
-├── polynomial_regression/
-├── ridge_regression/
-├── gradient_descent/
-└── datasets/
-```
-
----
-
-## 📈 What I Learned
-
-* How regression models work mathematically
-* Difference between normal equation and gradient descent
-* Impact of regularization on model performance
-* Writing machine learning models from scratch
-
----
-
-## 🎯 Purpose
-
-This project is part of my journey to master Machine Learning and Data Science by combining theoretical understanding with practical implementation.
-
----
-
-## 🔥 Future Improvements
-
-* Add Lasso Regression
-* Add ElasticNet
-* Hyperparameter tuning
-* Model comparison visualization
-
----
-
+# Future Improvements
+Add more ML algorithms
+Improve visualization
+Add real-world datasets
+Include model evaluation metrics
